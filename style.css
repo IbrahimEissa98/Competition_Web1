@@ -1,0 +1,383 @@
+* {
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header {
+    width: 100%;
+    height: 800px;
+    background: url(task-design/blue_bg.png) no-repeat;
+    background-size: 100% 80%;
+    display: flex;
+    justify-content: center;
+}
+.head-elements {
+    width: 1250px;
+    height: 100%;
+}
+            /* Nav bar */
+nav {
+    display: flex;
+    width: 1200x;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: 50px;
+    z-index: 5;
+}
+.nav-left {
+    display: flex;
+    align-items: center;
+    height: 70px;
+}
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+.nav-left a {
+    margin: 0px 25px;
+    font-size: 18px;
+    text-decoration: none;
+    color: rgb(116, 112, 112);
+    padding-bottom: 5px;
+    height: 25px;
+    line-height: 1.5;
+}
+.nav-links p:hover {
+    border-bottom: 3px solid rgb(83, 179, 218);
+    transform: scale(1.03);
+}
+.nav-right a {
+    padding: 6px 30px;
+    background-color: white;
+    border-radius: 20px;
+    text-decoration: none;
+    color: rgb(51, 50, 50);
+    font-size: 15px;
+    margin-right: 50px;
+}
+.nav-right a:hover {
+    color: rgb(54, 185, 236);
+    background-color: rgb(250, 250, 250);
+}
+            /* You sell it We Deliver it */
+.you-sell-we-deliver {
+    width: 100%;
+    position: relative;
+    top: 10%;
+    display: flex;
+    overflow-wrap: normal;
+}
+.you-sell-topic {
+    width: 50%;
+    margin: 10% 0 0 4%;
+}
+.you-sell-topic .first {
+    font-size: 53px;
+    font-weight: bold;
+}
+.you-sell-topic .first b {
+    color: rgb(145, 11, 122);
+}
+.you-sell-topic .second {
+    font-size: 29px;
+    margin-top: 25px;
+    color: rgb(122, 120, 120);
+}
+.you-sell-pics {
+    width: 50%;
+    position: relative;
+}
+.you-sell-pics .first-pic {
+    width: 650px;
+    height: 625px;
+    padding: 0px;
+    position: absolute;
+    top: -25%;
+    right: -8%;
+}
+.you-sell-pics .second-pic {
+    width: 300px;
+    position: absolute;
+    top: -20%;
+    right: 28%;
+}
+.you-sell-pics .cloud-pic {
+    width: 400px;
+    position: absolute;
+    top: 115%;
+    left: 17%;
+}
+.waves-pic {
+    width: 1400px;
+    height: 230px;
+    position: absolute;
+    top: 130%;
+    right: 20%;
+}
+            /* Delivary section */
+.delivary-sec {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.delivary-steps {
+    width: 1300px;
+    height: 800px;
+    background: url(task-design/second_section_.png) no-repeat ;
+    background-size: 70% 65%;
+    background-position: top right 40%;
+    position: relative;
+}
+.Super-Fast-Delivery {
+    width: 370px;
+    text-align: center;
+    position: absolute;
+    top: 8%;
+    left: 4%;
+    padding: 10px;
+    cursor: pointer;
+}
+.Super-Fast-Delivery:hover {
+    transform: scale(1.05);
+    /* box-shadow: 0 0 5px rgb(223, 219, 219);
+    background: linear-gradient(to right,#7ec0e494, #f2fcfe, #a7cbdf94); */
+    /* border-radius: 10px; */
+}
+.Super-Fast-Delivery h2 {
+    color: rgb(119, 113, 113);
+    line-height: 1.5;
+    margin-top: 10px;
+}
+.Super-Fast-Delivery p {
+    font-size: 20px;
+    line-height: 1.4;
+    color: rgb(146, 140, 140);
+}
+.Real-Time-Tracking {
+    width: 400px;
+    text-align: center;
+    position: absolute;
+    top: 28%;
+    right: 35%;
+    padding: 10px;
+    cursor: pointer;
+}
+.Real-Time-Tracking:hover {
+    transform: scale(1.05);
+}
+.Real-Time-Tracking h2 {
+    color: rgb(119, 113, 113);
+    line-height: 1.5;
+    margin-top: 10px;
+}
+.Real-Time-Tracking p {
+    font-size: 20px;
+    line-height: 1.4;
+    color: rgb(146, 140, 140);
+}
+.Discounts {
+    width: 400px;
+    text-align: center;
+    position: absolute;
+    top: 62%;
+    right: 8%;
+    padding: 10px;
+    cursor: pointer;
+}
+.Discounts:hover {
+    transform: scale(1.05);
+}
+.Discounts h2 {
+    color: rgb(119, 113, 113);
+    line-height: 1.5;
+    margin-top: 10px;
+}
+.Discounts p {
+    font-size: 20px;
+    line-height: 1.4;
+    color: rgb(146, 140, 140);
+}
+.Why-choose-KUDZOKA {
+    width: 320px;
+    height: 250px;
+    position: relative;
+    top: 60%;
+    left: 5%;
+    padding: 10px;
+    background: url(task-design/why_kudzoka_bg.png) no-repeat;
+    background-size: contain;
+}
+.Why-choose-KUDZOKA div {
+    position: absolute;
+    top: 30%;
+    left: 20%;
+}
+.Why-choose-KUDZOKA .Why_choos {
+    color: white;
+    font-size: 20px;
+}
+.Why-choose-KUDZOKA .KUDZOKA {
+    color: white;
+    font-size: 40px;
+    line-height: 1.7;
+}
+            /* Support Section */
+.Round-the-clock-Support {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.support-levels {
+    width: 1200px;
+    height: 550px;
+}
+.support-levels-pics {
+    width: 1100px;
+    height: 350px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+}
+.support-left {
+    width: 240px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 50px;
+}
+.support-middle {
+    width: 500px;
+    height: 350px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    padding-bottom: 0px;
+}
+.support-middle i {
+    margin-bottom: 60px;
+    font-size: 25px;
+    color: rgb(136, 133, 133);
+    cursor: pointer;
+    width: 70px;
+    text-align: center;
+}
+.support-middle i:hover {
+    animation-name: to-big;
+    animation-duration: 0.3s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+}
+@keyframes to-big {
+    from {
+        font-size: 25px;
+    }
+    to {
+        font-size: 35px;
+    }
+}
+.support-right {
+    width: 240px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 30px;
+}
+.support-levels-article {
+    width: 250px;
+    height: 200px;
+    margin: 0 auto;
+    text-align: center;
+}
+.support-levels-article h3 {
+    color: rgb(109, 108, 108);
+    line-height: 2;
+}
+.support-levels-article p {
+    font-size: 18px;
+    color: rgb(156, 153, 153);
+    line-height: 1.2;
+    padding: 10px;
+}
+            /* Footer */
+footer {
+    width: 100%;
+    height: 550px;
+    background: url(task-design/Group\ 1131.png) no-repeat;
+    background-position: center top 40px;
+    background-size: 115% 130%;
+    position: relative;
+    margin-top: -95px;
+    display: flex;
+    justify-content: center;
+}
+footer .post-box {
+    position: absolute;
+    right: 8%;
+    bottom: 0%;
+}
+.download-links {
+    position: absolute;
+    left: 5%;
+    bottom: 24%;
+    display: flex;
+}
+.store {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 50px;
+    background-color: white;
+    border-radius: 10px;
+    border: none;
+    margin-right: 20px;
+    text-decoration: none;
+}
+.store div {
+    margin-left: 15px;
+    text-align: center;
+    color: rgb(68, 67, 67);
+}
+.store .p1 {
+    font-size: 10px;
+}
+.store:hover {
+    background-color: rgb(240, 239, 239);
+}
+.social-media {
+    width: 120px;
+    position: absolute;
+    left: 5%;
+    bottom: 13%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-nav-links {
+    position: absolute;
+    left: 5%;
+    bottom: 4%;
+    display: flex;
+    align-items: center;
+}
+.footer-nav-links a {
+    margin-right: 40px;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    padding-bottom: 5px;
+    height: 25px;
+    line-height: 1.5;
+}
+.footer-nav-links p:hover {
+    border-bottom: 3px solid rgb(240, 10, 221);
+    transform: scale(1.03);
+}
